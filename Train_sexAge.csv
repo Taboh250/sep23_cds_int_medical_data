@@ -1,4 +1,4 @@
-ID,target,Sex,Imag,Age
+ID,target,Sex,ImagFile,Age
 ADHD_1003,ADHD,0,areg_ADHD_1003_brain.nii.gz,12.8
 ADHD_1006,ADHD,1,areg_ADHD_1006_brain.nii.gz,16.2
 ADHD_1008,ADHD,0,areg_ADHD_1008_brain.nii.gz,10.7
