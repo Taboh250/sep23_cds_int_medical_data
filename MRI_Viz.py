@@ -1,10 +1,7 @@
-def PlotNiftiTest(Image:numpy.ndarray,X,Y,Z):
-	print ('im here')
-
-
 def PlotNiftiXYZ(Image:numpy.ndarray,X,Y,Z):
   '''
   Plot the 3D axial cuts
+  Version 2
   Image - 3D Gray image in a 3D Array
   X - Left .. Right
   Y - Rear .. Front
@@ -50,6 +47,7 @@ def PlotNiftiXYZ(Image:numpy.ndarray,X,Y,Z):
 def PlotNifti(Image,Axis,Start,N = 25):
   '''
   Print N cuts in an axis
+  Version 2
   Image - 3D Gray image in a 3D Array
   Axis - X, Y or Z
   Start - Start cut number
