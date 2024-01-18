@@ -11,7 +11,7 @@ def OpenNiftiGitHubFile (PathAndFileName,UserName= "jricardoct15",GithubRepo="se
   GithubRepo - Github Repository
   '''
   url = f"https://github.com/{UserName}/{GithubRepo}/raw/main/{PathAndFileName}"
-  wget --no-cache --backups=1 {url}
+  !wget --no-cache --backups=1 {url}
 
   data = nib.load(PathAndFileName).get_fdata()
 
