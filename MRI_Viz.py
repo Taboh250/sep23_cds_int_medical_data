@@ -1,3 +1,7 @@
+def PlotNiftiTest(Image:numpy.ndarray,X,Y,Z):
+	print ('im here')
+
+
 def PlotNiftiXYZ(Image:numpy.ndarray,X,Y,Z):
   '''
   Plot the 3D axial cuts
