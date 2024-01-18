@@ -65,7 +65,7 @@ def PlotNifti(Image,Axis,Start,N = 25):
     else:
       Xmax=maxX
     for i in range(Start, Xmax):
-      ax=plt.subplot(5,maxChartLines ,i+1-Start)
+      ax=plt.subplot(maxChartLines ,5,i+1-Start)
       ax.set_title('X='+str(i))
       plt.imshow(Image[i,:,:], cmap = 'gray')
       plt.gcf().set_size_inches(15,15)
@@ -78,7 +78,7 @@ def PlotNifti(Image,Axis,Start,N = 25):
     else:
       Ymax=maxY
     for i in range(Start,Ymax):
-      ay=plt.subplot(5,maxChartLines ,i+1-Start)
+      ay=plt.subplot(maxChartLines ,5,i+1-Start)
       ay.set_title('Y='+str(i))
       plt.imshow(Image[:,i,:], cmap = 'gray')
       plt.gcf().set_size_inches(15,15)
@@ -91,7 +91,7 @@ def PlotNifti(Image,Axis,Start,N = 25):
     else:
       Zmax=maxZ
     for i in range(Start,Zmax):
-      az=plt.subplot(5,maxChartLines ,i+1-Start)
+      az=plt.subplot(maxChartLines ,5,i+1-Start)
       az.set_title('Z='+str(i))
       plt.imshow(Image[:,:,i], cmap = 'gray')
       plt.gcf().set_size_inches(15,15)
