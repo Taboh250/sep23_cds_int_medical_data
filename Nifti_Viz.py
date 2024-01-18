@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def PlotNiftiXYZ(Image,X,Y,Z):
   '''
   Plot the 3D axial cuts
