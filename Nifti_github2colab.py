@@ -1,4 +1,4 @@
-from skimage import io
+from pathlib import Path
 import nibabel as nib
 
 def OpenNiftiGitHubFile (PathAndFileName,UserName= "jricardoct15",GithubRepo="sep23_cds_int_medical_data"):
