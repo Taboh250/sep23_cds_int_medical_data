@@ -53,7 +53,7 @@ def PlotNifti(Image,Axis,Start,N = 25):
   '''
   maxChartLines = N//5 +1
 
-  maxX,maxY,maxZ = img1.shape
+  maxX,maxY,maxZ = Image.shape
 
   if Axis == "x" or Axis=="X":
     if Start+N < maxX:
