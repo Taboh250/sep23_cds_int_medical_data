@@ -1,4 +1,4 @@
-def PlotNiftiXYZ(Image,X,Y,Z):
+def PlotNiftiXYZ(Image:numpy.ndarray,X,Y,Z):
   '''
   Plot the 3D axial cuts
   Image - 3D Gray image in a 3D Array
