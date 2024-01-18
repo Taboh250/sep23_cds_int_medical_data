@@ -6,7 +6,7 @@ def PlotNiftiXYZ(Image,X,Y,Z):
   Y - Rear .. Front
   Z - Down .. Up
   '''
-  maxX,maxY,maxZ = img1.shape
+  maxX,maxY,maxZ = Image.shape
 
   axz=plt.subplot(2,2,1)
   axz.set_title('Z='+str(Z))
